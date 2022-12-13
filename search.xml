@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>/2022/12/13/JetBrains%E7%A0%B4%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="JetBrains全家桶破解"><a href="#JetBrains全家桶破解" class="headerlink" title="JetBrains全家桶破解"></a>JetBrains全家桶破解</h1><h4 id="一、安装IDEA"><a href="#一、安装IDEA" class="headerlink" title="一、安装IDEA"></a><strong>一、安装IDEA</strong></h4><p>从官方网站下载安装正版的即可。</p>
+<h4 id="二、激活"><a href="#二、激活" class="headerlink" title="二、激活"></a><strong>二、激活</strong></h4><h5 id="1、打开激活网址https-jetbra-in-s"><a href="#1、打开激活网址https-jetbra-in-s" class="headerlink" title="1、打开激活网址https://jetbra.in/s"></a><strong>1、打开激活网址</strong><a class="link"   href="https://jetbra.in/s" >https://jetbra.in/s<i class="fas fa-external-link-alt"></i></a></h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mmbiz.qpic.cn/mmbiz_png/iaN3cgb784KrymC7FqTpBNJF17iaI9Z0v8RmyFiaY31T5MXK4jfnr5Mwq24VxqSYnH2JFNOYATmHGgXE2kLFTA6jg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"
+                      alt="图片"
+                ></p>
+<p>前面几个带地球的，状态为当前在线可用，点击任意一个可用的链接即可。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mmbiz.qpic.cn/mmbiz_png/iaN3cgb784KrymC7FqTpBNJF17iaI9Z0v8YMloILTQBs3v9iaNicAmfxMLkuuc4bEwbwWm68AHzQUYmso6DUaX9SkQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"
+                      alt="图片"
+                ></p>
+<h5 id="2、下载激活包"><a href="#2、下载激活包" class="headerlink" title="2、下载激活包"></a><strong>2、下载激活包</strong></h5><p>下载上面的压缩文件，jetbra.zip，发布日期为8月1日，解压到IDEA的同级目录下。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mmbiz.qpic.cn/mmbiz_png/iaN3cgb784KrymC7FqTpBNJF17iaI9Z0v8ny1XhJg8AoI3SLjvDcEDt7Xm5bAcBdgyenFEIjLFNabgFGuPmHqdsQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"
+                      alt="图片"
+                ></p>
+<h5 id="3、修改配置文件"><a href="#3、修改配置文件" class="headerlink" title="3、修改配置文件"></a><strong>3、修改配置文件</strong></h5><p>用文本编辑器打开idea64.exe.vmoptions，该文件位于ideaIU-2022.2.3.win &#x2F; bin目录下，在文件最末尾加上如下配置信息：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">请修改为ja-netfilter.jar文件所在绝对路径</span></span><br><span class="line">-javaagent:D:/Apps/JetBrains/jetbra-220801/ja-netfilter.jar=jetbrains</span><br><span class="line">--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED</span><br><span class="line">--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED</span><br></pre></td></tr></table></figure></div>
+
+<p>修改后如下图所示：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.nlark.com/yuque/0/2022/png/25373334/1670934197446-416928af-0e90-48a0-a9eb-4f410dea2460.png"
+                      alt="img"
+                ></p>
+<h5 id="4、填写特定激活码"><a href="#4、填写特定激活码" class="headerlink" title="4、填写特定激活码"></a><strong>4、填写特定激活码</strong></h5><p>配置完，我们就可以用特定的激活码来激活IDEA了，点击激活网站上IDEA栏的Copy to clipboard，激活码将复制到剪切板。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mmbiz.qpic.cn/mmbiz_png/iaN3cgb784KrymC7FqTpBNJF17iaI9Z0v8IB2U5Ft2VOopCu8WUNcqwvTmc5WPupjDZic7sERjRia40DsE9IgmFhvA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"
+                      alt="图片"
+                ></p>
+<p>这时，启动我们的IDEA，在 管理许可证 -&gt; 激活 -&gt; 激活码 处，粘贴Ctrl + V，点击激活即可。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mmbiz.qpic.cn/mmbiz_png/iaN3cgb784KrymC7FqTpBNJF17iaI9Z0v8oGwASbgLPFRMP60N3nh4gRYAzpJXFFummiaibFXuXU7qX9Wm7H3ljfHA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"
+                      alt="图片"
+                ></p>
+]]></content>
+  </entry>
+</search>
